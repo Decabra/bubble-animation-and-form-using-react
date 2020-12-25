@@ -38,7 +38,7 @@ const Form = () => {
                                         onChange={handleChange}
                                         value={values.usrname || ""}
                                         name="usrname" required />
-                                    {errors.usrname && (
+                                    {errors.usrname (
                                         <p className="help is-danger">{errors.usrname}</p>
                                     )}
                                 </div>
@@ -121,7 +121,7 @@ const Form = () => {
                                     )}
                                 </div>
                             </div>
-                            <button type="submit" className="button is-block is-info is-fullwidth">Login</button>
+                            <button type="submit" className="button is-block is-info is-fullwidth">Register</button>
                         </form>
                     </div>
                 </div>
