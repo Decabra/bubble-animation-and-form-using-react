@@ -38,7 +38,7 @@ const Form = () => {
                                         onChange={handleChange}
                                         value={values.usrname || ""}
                                         name="usrname" required />
-                                    {errors.usrname (
+                                    {errors.usrname && (
                                         <p className="help is-danger">{errors.usrname}</p>
                                     )}
                                 </div>
