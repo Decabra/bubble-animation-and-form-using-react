@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import Form from './components/form/Form';
-import Board from './components/board/Board';
+import Form from './form/Form';
+import Board from './board/Board';
 import { Switch, Route, Link, withRouter} from 'react-router-dom'
 import './App.css'
 class App extends Component{
