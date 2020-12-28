@@ -30,7 +30,6 @@ class App extends Component{
         this.navBarFate()
     }
     navBarFate(){
-        console.log(this.props.location.pathname)
         if (this.props.location.pathname === "/") {
             document.querySelector(".navbar-start").style.display = "flex"
         }
